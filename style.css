@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f0f0f0;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background: #fff;
+    padding: 25px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #bbb;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005ec5;
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.task-card {
+    background: #fafafa;
+    padding: 18px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.07);
+    transition: 0.3s ease;
+}
+
+.task-card:hover {
+    transform: translateY(-3px);
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.time-display {
+    margin: 10px 0;
+    color: #333;
+}
+
+.green-btn {
+    background: #28a745;
+}
+
+.red-btn {
+    background: #ff4444;
+}
