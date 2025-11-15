@@ -30,7 +30,7 @@ function addTask() {
 
 function startTask(id) {
     if (isRunning && selectedTask && selectedTask.id !== id) {
-        alert("Stop the current task before switching!");
+        alert("Stop the Current task before Switching!");
         return;
     }
 
