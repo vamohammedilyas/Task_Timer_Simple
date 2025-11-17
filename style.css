@@ -62,7 +62,7 @@ button:hover {
     background: #eee9e9;
     padding: 18px;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.07);
+    box-shadow: 0 0 10px rgba(11, 11, 11, 0.07);
     transition: 0.3s ease;
 }
 
