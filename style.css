@@ -59,7 +59,7 @@ button:hover {
 }
 
 .task-card {
-    background: #fafafa;
+    background: #eee9e9;
     padding: 18px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0,0,0,0.07);
