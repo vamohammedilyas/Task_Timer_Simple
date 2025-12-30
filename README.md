@@ -13,7 +13,7 @@ A productivity tool built using **HTML, CSS, and JavaScript** that helps users t
 - Add Multiple Tasks  
 - Start/Stop timer per task  
 - Total time tracking  
-- Clean UI & responsive design  
+- Clean UI & Responsive design  
 - Lightweight — No frameworks  
 - Works on any browser  
 
